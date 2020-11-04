@@ -9,17 +9,20 @@ const Layout = styled.main`
   bottom: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  padding: 0px 100px;
+  justify-content: flex-end;
   font-family: sans-serif;
-  color: #FCFCFC;
-  background-color: #030303;
+  font-size: 2em;
+  color: #030303;
+  background-image: url('harold.jpg');
+  background-size: cover;
+  background-position: center;
 `;
 
 function App() {
   return (
    <Layout>
-     <img alt="old-man" src="/man-image.jpg" width="750px" />
      <h1>High Pants - Low Standards</h1>
      <h2>Coming Soon</h2>
    </Layout>
