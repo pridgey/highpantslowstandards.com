@@ -11,7 +11,7 @@ const Layout = styled.main`
   flex-direction: column;
   align-items: flex-end;
   padding: 0px 100px;
-  justify-content: flex-end;
+  justify-content: flex-start;
   font-family: sans-serif;
   font-size: 2em;
   color: #030303;
@@ -21,7 +21,6 @@ const Layout = styled.main`
 
   @media only screen and (max-width: 600px) {
     font-size: 14px;
-    align-items: center;
   }
 `;
 
