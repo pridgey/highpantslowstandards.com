@@ -21,6 +21,7 @@ const Layout = styled.main`
 
   @media only screen and (max-width: 600px) {
     font-size: 14px;
+    padding: 0px 15px;
   }
 `;
 
